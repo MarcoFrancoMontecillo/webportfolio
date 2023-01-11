@@ -1,10 +1,10 @@
 <style>
   /* Global Styles */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
-    background-color: #18363E;
+    background-color: black;
   }
 
   /* Header and Navbar Styles */
@@ -53,6 +53,7 @@
     margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Courier New', monospace;
   }
 
   #about img{
@@ -64,12 +65,14 @@
     width: 100%;
     margin-tops: 1rem;
     color: white;
+    font-size: 20px;
   }
 
   #about h1 {
     width: 100px;
     margin-top: 0;
     margin-left: 1rem;
+    font-weight: bold;
   }
 
     @media (min-width: 768px) {
@@ -88,6 +91,10 @@
             width: 50%;
             margin-top: 0;
             margin-left: 1em;
+            font-size: 20px;
+            padding: 150px 0;
+            border: 3px;
+            text-align: center;
         }
     }
 
@@ -127,6 +134,22 @@
     transform: scale(1.1);
     box-shadow: 0 5px 10px #ccc;
   }
+
+  #achivements img {
+    width: 70%;
+    border-radius: 25px;
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 768px) {
+        
+        /* Image styles */
+        #achivements img {
+            width: 70%;
+        }
 
   /* Skills Section Styles */
   #skills {
@@ -199,3 +222,4 @@
     font-size: 2rem;
     transition: 0.3s;
   }
+</style>
