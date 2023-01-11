@@ -1,0 +1,201 @@
+<style>
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18363E;
+  }
+
+  /* Header and Navbar Styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #18363E;
+    color: #AA9D94;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 2px 5px #ccc;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav li {
+    margin: 0 1em;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Section Styles */
+  section {
+    padding: 2em;
+  }
+
+  /* About Section Styles */
+  #about {
+    background-color: #2D5F6E;
+    box-shadow: 0 2px 5px #ccc;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #about img{
+    width: 50%;
+    border-radius: 25px;
+  }
+
+  #about p {
+    width: 100%;
+    margin-tops: 1rem;
+    color: white;
+  }
+
+  #about h1 {
+    width: 100px;
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+
+    @media (min-width: 768px) {
+        /* Container styles */
+        #about {
+            flex-direction: row;
+        }
+        
+        /* Image styles */
+        #about img {
+            width: 30%;
+        }
+        
+        /* Text styles */
+        #about p {
+            width: 50%;
+            margin-top: 0;
+            margin-left: 1em;
+        }
+    }
+
+
+
+  /* Work Section Styles */
+  #achivements {
+    background-color: #5F97AA ;
+    box-shadow: 0 2px 5px #ccc;
+    margin-top: 5em;
+  }
+
+  #achivements ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #achivements li {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  #achivements a {
+    display: block;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px #ccc;
+    transition: 0.3s;
+  }
+
+  #achivements a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px #ccc;
+  }
+
+  /* Skills Section Styles */
+  #skills {
+    background-color: #3E88A5;
+    box-shadow: 0 2px 5px #ccc;
+    margin-top: 5rem;
+  }
+
+  #skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #skills li {
+    width: 30%;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1em;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px #ccc;
+    transition: 0.3s;
+  }
+
+  #skills li:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px #ccc;
+  }
+
+  #social-media {
+    background-color: #93C4D1;
+    box-shadow: 0 2px 5px #ccc;
+    margin-top: 5em;
+  }
+
+  #social-media ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #social-media li {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+
+  #social-media a {
+    display: block;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px #ccc;
+    transition: 0.3s;
+  }
+
+  #social-media a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px #ccc;
+  }
+
+  .social-icons a {
+    color: #605E5F;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: 0.3s;
+  }
