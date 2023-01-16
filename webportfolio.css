@@ -223,4 +223,10 @@
     font-size: 2rem;
     transition: 0.3s;
   }
+
+  div footer div a{
+    widows: 30;
+    height: 24;
+  }
+
 </style>
