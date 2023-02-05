@@ -1,4 +1,4 @@
-<style>
+
   /* Global Styles */
   body {
     font-family: 'Courier New', monospace;
@@ -63,7 +63,7 @@
 
   #about p {
     width: 100%;
-    margin-tops: 1rem;
+    margin-top: 1rem;
     color: white;
     font-size: 20px;
   }
@@ -228,5 +228,3 @@
     widows: 30;
     height: 24;
   }
-
-</style>
